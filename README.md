@@ -1,24 +1,6 @@
-# README
+課題の答え
+1)Employee.where("age > ?", 30)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+2)Project.find(2).employees
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+3.
