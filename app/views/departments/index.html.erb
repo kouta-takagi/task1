@@ -1,0 +1,8 @@
+<% @departments.each do |department| %>
+  <h3>部署名: <%= department.name %></h3>
+  <div>メンバー</div>
+  <% department.employees.each do |employee| %>
+    <div>name:<%= employee.name %> age:<%= employee.age %></div>
+  <% end %>
+  <br>
+<% end %>
