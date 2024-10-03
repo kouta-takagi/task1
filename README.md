@@ -8,7 +8,8 @@
 
 4. Employee.all.joins(:department).pluck('departments.name').tally
 
-参考記事
+# 参考記事
+
 ・中間テーブル
 https://qiita.com/kyubey1228/items/49b89eac58aacf63e0c1
 
